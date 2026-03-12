@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 20px;
+            background-color: whitesmoke;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+        .card{
+           border: 1px solid #ccc;
+           border-radius: 8px;
+           width: 200px;
+           height: 270px;
+           padding: 15px;
+            text-align: center;
+           box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+          
+        }
+        .button{
+            margin-top: 10px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007BFF;
+      color: white;
+      cursor: pointer;
+        }
+        .button:hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRPPXJ3z6XY4SofOEfveM_58tRX2rqtWiTJXNhfjLpIaQBuq1jTxiLV_IVugmi_tigP8YbWESezYDR-Z44OzshEAnm4mn4FIQH60lEDvB4" alt="book1" width="130px">
+            <p>Price-Rs149/-</p>
+            <button>More Options</button>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTxiKL_07sPmLLzUCvq_uwhivMlLN0soXCyEfT79NGV-oaP6tva1xd5UcZELU8Mum5BvCIDgmqCDlhhunK34UXywt2AHkJ1lq8wQ0ELRFzlBm3QshuaRu8mtw" alt="book2" width="130px" >
+            <p>Price-Rs1500/-</p>
+            <button>More Options</button>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTkJ-0agao1rupWor2GJb9yolEXvC-D32W6U9VMp53YknDy6tVf7PkrNI-m1rJiwBm-s6uj7bJM4LNyDSr0hktpVKUIAT9qe7_N4EASLKg8bmzOw3Wv_DaIOw" alt="book3" width="130px">
+            <p>Price-Rs700/-</p>
+            <button>More Options</button>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQjgV9AuwozIME_3wSxpKRugZFVl-8hMTN6pLzYp3jVlo4ijjPeByTiHhcMjIymH7SaDiBlbW3PlmvrWCeNnNyIfsEjcAxxTdUzzTrL20k" alt="book4" width="130px">
+            <p>Price-Rs400/-</p>
+            <button>More Options</button>
+        </div>
+    </div>
+</body>
+</html>

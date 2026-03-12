@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+      .containter{
+        width:100%;
+        height: 600px;
+        gap:13px;
+        flex-direction: row;
+        
+      }
+
+    nav {
+      background-color: #fffbfb;
+      padding: 10px;
+      text-align: right;
+    }
+    
+    iframe {
+      width: 50%;
+      height: 600px; /* fills most of the screen */
+      border: 2px solid black;
+      display: flex;
+     
+    }
+    h1{
+        text-align: center;
+    }
+    form{
+
+      border: 2px solid black;
+      
+      
+      
+      width: 50%;
+      height:400px;
+      padding:13px;
+      text-align: center;
+
+
+
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <h1>Amrita Viswa Vidyapeetam</h1>
+
+<div>   
+  <nav>
+    <a href="coaimbatore.html" target="task">Coimbatore</a>
+    <a href="amaravati.html" target="task">Amaravati</a>
+    <a href="mysuru.html"target="task">Mysuru</a>
+    <a href="ben.html" target="task">Benguluru</a>
+    <a href="amritapuri.html" target="task">Amritapuri</a>
+    <a href="haridwar.html" target="task">Haridwar</a>
+    <a href="faidabad.html"target="task">Faridabad</a>
+    <a href="chennai.html" target="task">Chennai</a>
+    <a href="nagarcoil.html" target="task" >Nagarcoil</a>
+    <a href="delhi.html" target="task">Delhi</a>
+</nav>
+</div> 
+<div class="container">
+    <div>
+
+    <form>
+   
+    <label for="fname">First name:</label>
+    <input name="fname" type="text" id="fname"><br><br>
+  
+       
+    
+      <label for="lname">Last Name:</label><br><br>
+    
+    <input name="lname" type="text" id="lname">
+ 
+   
+      <label for="mmarks">12th Marks</label>
+    <input name="mmarks" type="number" id="mmarks" ><br><br>
+  
+      <label for="cname">Course Applying For:</label>
+      <select name="cname" id="cname">
+            <option value="Btech">Btech</option>
+            <option value="ECE">ECE</option>
+            <option value="CCE">CCe</option>
+        </select><br><br>
+     
+     <label for="hname">Hostel/Day schalor</label>
+    <input type="checkbox" name="hname" id="hname">
+    <label for="hostel">Hostel</label>
+    <input type="checkbox" name="hname" id="hname">
+    <label for="day">Day Schlor</label>
+    <input name="hname" id="hname" type="checkbox">
+  
+  </form>
+</div>
+
+
+  <iframe src="amaravati.html" name="task"></iframe>
+
+  
+</div>
+
+  
+</body>
+</html>
