@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Circle{
+                width:100px;
+                height:100px;
+                background-color: lightcoral ;
+                border-radius: 50%;
+                position:relative;
+                margin: auto;
+                animation-name: Rotate;
+                animation-duration: 4.5s;
+                animation-timing-function: ease;
+                animation-iteration-count: infinite;
+            }
+            @keyframes Rotate {
+                0%{
+                    top:0;
+                    left:0;
+                    transform:rotate(0deg);
+                }
+                25%{
+                    top:0;
+                    left:200px;
+                    transform:rotate(90deg);
+                }
+                50%{
+                    top:200px;
+                    left:200px;
+                    transform: rotate(180deg);
+                }
+                75%{
+                    top:200px;
+                    left:0;
+                    tranform:rotate(270deg);
+                }
+                100% {
+                   top: 0;
+                   left: 0;
+                   transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="font-family: 'Times New Roman', Times, serif;font-style: oblique;color:purple;text-align: center;text-decoration: underline;"> A circle that moves horizontally and rotates at the same time</h1>
+        <div class ="Circle"></div>
+    </body>
+</html>
